@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 400;
+  src: url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Regular.eot");
+  src: url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.woff2) format('woff2'),
+       url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Regular.woff2") format('woff2'),
+       url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.woff) format('woff'),
+       url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Regular.woff") format('woff'),
+       url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.eot);
+  src: url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Bold.eot");
+  src: url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.woff2) format('woff2'),
+       url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Bold.woff2") format('woff2'),
+       url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.woff) format('woff'),
+       url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Bold.woff") format('woff'),
+       url(//fonts.gstatic.com/ea/notokufiarabic/v2/NotoKufiArabic-Bold.ttf) format('truetype'),
+       url("<?php echo base_url();?>public/dist/fonts/NotoKufiArabic-Bold.ttf") format('truetype');
+}
+body {
+  background-color: #f8f8f8;font-family: 'Noto Kufi Arabic';font-size:12px;
+}
+h1,h2,h3,h4,h5,h6{font-family:"Noto Kufi Arabic",Arial,sans-serif;font-weight:400;margin:10px 0; }
+.w3-wide{letter-spacing:4px}
+.make-block{display: block;text-align: right;width: 300px;font-size: 12px;}
+.navbar-nav a{color: #e7eced;}
+.list-menu a{color: #333;}
+.navbar-nav a:hover{color: rgba(255,255,255,.75);text-decoration: none;}
+#page-content{float: right;width: 100%;}
+.navbar-dark .navbar-nav .nav-link{color: #e7eced;}
+.w3-bar .w3-bar-item{float: right;}
+table{width: 100%;}
+.system-color{color: #777;font-size: 20px;}
+.system-color a:hover{color: #777;}
+.model-header-style{background-color: #337ab7; color: white; padding:5px;}
+.center img{display: block;margin-left: auto;margin-right: auto;width: 10%;height: 10%;margin-top: 20px;}
+.head-4{color: #d71b1b;;font-weight: bold;}
+.btn{font-size: 12px;}
+.form-control{font-size: 12px;}
