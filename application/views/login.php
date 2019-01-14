@@ -30,30 +30,30 @@
 		<br>
 		<form action="<?php echo base_url('Login'); ?>" method="POST">
 			<div class="row">
-				 <div class="col-lg-12">
-				 	<label class="w3-text-black pull-right"><b>اسم المستخدم</b></label>	
+				 <div class="col-md-12">
+				 	<label><b>اسم المستخدم</b></label>	
 				 </div>
 			</div>
 			<div class="row">
-				 <div class="col-lg-12">
-				 	<input style="width: 300px;" class="w3-input w3-border w3-light-grey" type="text" name="username" placeholder="اسم المستخدم">
+				 <div class="col-md-12">
+				 	<input style="width: 300px;" class="form-control" type="text" name="username" placeholder="اسم المستخدم">
 				 </div>
 			</div>				
 			<br>
 			<div class="row">
-				 <div class="col-lg-12">
-				 	<label class="w3-text-black pull-right"><b>كلمة المرور</b></label>	
+				 <div class="col-md-12">
+				 	<label><b>كلمة المرور</b></label>	
 				 </div>
 			</div>
 			<div class="row">
-				 <div class="col-lg-12">
-				 	<input style="width: 300px;" class="w3-input w3-border w3-light-grey" type="password" name="password" placeholder="كلمة المرور">
+				 <div class="col-md-12">
+				 	<input style="width: 300px;" class="form-control" type="password" name="password" placeholder="كلمة المرور">
 				 </div>
 			</div>	
 			<br>
 			<div class="row">
-				 <div class="col-lg-12">
-				 	<input name="submit" type="submit" class="w3-btn w3-green pull-left" value="تسجيل دخول"/>
+				 <div class="col-md-12">
+				 	<input name="submit" type="submit" class="btn btn-success pull-left" value="تسجيل دخول"/>
 				 </div>
 			</div>					
 		<br>				
