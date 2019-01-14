@@ -159,14 +159,13 @@ class Customer extends CI_controller
     function retrive_customer_by_ctmID()
     {
         $id = $this->input->get('ctmid');
-
-        $titles = $this->ctm->retrive_customer();
+        $titles = $this->ctm->retrive_customer_by_ctmID($id);
         // grades
         if (count($titles)>0) // fill select box
         {
             $checked = "";
             $pro_select_box = "";
-            $pro_select_box .= '<option value="">اسم الحساب</option>' ;
+            $pro_select_box .= '<option value="">اسم العميل</option>' ;
             foreach ($titles as $row) {
                 if($row->ctmID == $id){$checked ="selected";}else{$checked="";}
                 $pro_select_box .= '<option '. $checked .' value ="'. $row->ctmID .'">'.$row->ctm_name.'</option>' ;
