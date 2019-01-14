@@ -34,7 +34,13 @@ class Customer_model extends CI_model
 		$this->db->order_by('ctmID','desc');
 		$query = $this->db->get('customer');
 		return $query->result();		
-	}	
+	}
+	function retrive_customer_by_ctmID($id)
+	{
+		$this->db->where('ctmID',$id);
+		$query = $this->db->get('customer');
+		return $query->result();		
+	}			
 	function count_all()
 	{
 		// get number of rows
